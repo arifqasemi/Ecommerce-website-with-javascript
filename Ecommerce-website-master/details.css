@@ -1,0 +1,46 @@
+.contain{
+    display: flex;
+    padding: 80px 80px;
+}
+
+.size{
+    display: flex;
+    flex-direction: column;
+}
+
+.size select{
+    margin: 10px 0;
+    width: 30%;
+}
+
+.size button{
+    width: 30%;
+    padding: 10px 0;
+    background-color: #088178;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detials h5{
+    padding: 10px 0;
+}
+
+.cart{
+    background-color: #088178;
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+.image{
+    border: solid 1px #c8cdc8;
+    margin: 0 15px;
+}
